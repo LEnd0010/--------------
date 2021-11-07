@@ -10,7 +10,7 @@ li{
 
 /* a标签 下划线取消 */
 a{
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 /* 图片转化为块元素 */
