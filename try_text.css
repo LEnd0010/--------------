@@ -1,0 +1,154 @@
+*::-webkit-scrollbar {
+    display: none;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+html, body {
+    font-family: "DM Sans","Gilroy",-apple-system,"Sofia Pro","Microsoft YaHei","Helvetica","Arial",sans-serif;
+    font-size: 100px;
+    color: #333;
+    line-height: 1.3;
+    -webkit-overflow-scrolling: touch;
+}
+
+ * {
+    box-sizing: border-box;
+}
+
+body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+div {
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+        /* h1{
+            margin:0 auto; 
+            width:400px;
+            height:100px;
+            border:1px solid #F00
+            
+        } */
+
+        section {
+            line-height: 1.8;
+            display: block;
+         position: relative;
+         width: 100%;
+            padding: 0 9vw;
+         margin: 11vw auto 0;
+        }
+
+        p {
+    display: block;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em; */
+    height: 56px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0 auto;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: "Gilroy-Bold",-apple-system,"Sofia Pro","Microsoft YaHei","Helvetica","Arial",sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: .37rem;
+}
+
+div, button {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slick-slider {
+    position: relative;
+    overflow-x: hidden;
+    /* 这三个 用于不用没差别 */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.history .carousel {
+    position: relative;
+    margin: auto;
+    margin-top: .57rem;
+    text-align: center;
+    overflow: visible;
+}
+.slick-list {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.history .carousel .slick-list {
+    width: 6.44rem;
+    height: 2.49rem;
+    margin: auto;
+    overflow: visible;
+}
+.slick-list .slick-track {
+    height: 100%;
+}
+element.style {
+    opacity: 1;
+    transform: translate3d(-20608px, 0px, 0px);
+    width: 21862px;
+}
+.slick-list .slick-track .slick-slide {
+    float: left;
+    height: 100%;
+}
+.history .carousel .slick-slide {
+    opacity: 1;
+    -webkit-transition: opacity .4s ease;
+    transition: opacity .4s ease;
+}
+.slick-list .slick-track .slick-slide>div {
+    width: unset !important;
+    height: 100%;
+}
+.history .carousel .stone-wrapper {
+    position: relative;
+    height: 2.49rem;
+    overflow: visible;
+}
+.history .carousel .stone-wrapper .stone-contents {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    width: 99%;
+    height: 2.32rem;
+    border-radius: .22rem;
+    background-color: #fff;
+    box-shadow: 0 0.04rem 0.05rem rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+.stone-contents{
+    
+    position: relative;
+    font-size: .22rem;
+    overflow: hidden;
+    line-height: 1.8;
+}
+
+.history .carousel .stone-wrapper .stone-contents>img {
+    width: 3.14rem;
+    height: 100%;
+    object-fit: cover;
+}
+img{
+    border-style: none;
+}
+img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    object-fit: cover;
+    
+}

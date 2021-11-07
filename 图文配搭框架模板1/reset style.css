@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    /* 清除列表符号 */
+    list-style: none;
+}
+
+/* a标签 下划线取消 */
+a{
+    text-decoration: none;
+}
+
+/* 图片转化为块元素 */
+img{
+    display:block;
+}

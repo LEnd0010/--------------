@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            border: solid 5px red;
+            float: left;
+        } */
+        .father{
+            border: solid 5px red;
+        }
+        .box1, .box2{
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        .box1{
+            background-color: rosybrown;
+        }
+        .box2{
+            background-color: salmon;
+        }
+        .brother{
+            width: 600px;
+            height: 500px;
+            background-color: skyblue;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <!-- 浮动和定位 -->
+    
+    <div class="father">
+        <div class="box1">
+
+        </div>
+        <div class="box2">
+    
+        </div>
+        <div style="clear: both;"></div> 
+        <!-- 解决浮动产生的问题 再最后一个元素添加 clear:" both "; -->
+        <!-- 或者给父元素添加 overflow:hidden; -->
+    </div>
+    <div class="brother">
+
+    </div>
+</body>
+</html>

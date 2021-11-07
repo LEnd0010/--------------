@@ -1,0 +1,43 @@
+/* 最外端的盒子更改 */
+.pro_box{
+    /* 设置宽站父元素的90% */
+    width: 80%;
+    /* 设置外边距  上20 下0 左右居中 */
+    margin: 20px auto 0;
+
+    /* 设置外框样式 */
+    /* border: solid 2px red; */
+}
+
+/* 列表部分的设置 */
+.pro_box ul{
+    /* overflow: hidden; */
+    margin-left: -1%;
+    margin-top: 20px;
+}
+
+.pro_box ul li{
+    float: left;
+    /* border: solid 3px blue; */
+    /* width: 24%; */
+    margin-left: 1%;
+}
+
+.pro_box ul li img{
+    /* 让图片可以正常的展示  等比例缩放 */
+    width: 50%;
+}
+
+.text_box {
+    width: 95%;
+}
+.pro_box p{
+    margin-bottom:20px ;
+    margin-top: 40px;
+
+}
+
+.pro_box .text_box a{
+    font-weight: bold;
+    color: blue;
+}
