@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- medio媒体查询 -->
+    <link rel="stylesheet" media="screen and (min-width:1200px)" href="style1.css">
+    <link rel="stylesheet" media="screen and (max-width:1200px )" href="style2.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="style3.css">
+
+    <!-- 根据页面的大小进行不通的css连接的跳转 -->
+    <!-- 如果文档宽度小于 300 像素则修改背景颜色(background-color): -->
+    <!-- @media screen and (max-width: 300px) {
+        body {
+            background-color:lightblue;
+        }
+    } -->
+
+    <!-- 使用自适应写法  就无需同时链接三个 css文件  只需要一个css文件就行 -->
+
+    <!-- @  自适应符  书写语法： @media 设备类型 and 设备尺寸 （可以用and链接多个尺寸） -->
+
+    <!-- @media screen and (min-width :950px) and (max-width 1200px){
+        <!-- 此时在{}内部书写的样式  会再屏幕尺寸 950-1200px 之间进行展示  （页面同理） -->
+    } -->
+
+</head>
+<body>
+
+    <div class="box">
+
+
+    </div>
+    
+</body>
+</html>
